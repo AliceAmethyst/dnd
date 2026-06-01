@@ -1,0 +1,79 @@
+@font-face {
+ font-family: Billo;
+ font-style: normal;
+ src: url(BILLO___.ttf);
+}
+
+
+body {
+    background-image: url(img/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Billo;
+}
+
+.me-icon {
+    display:inline-block;
+    margin-left: 8%;
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 5px;
+    height: 150px;
+    width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-family: Billo;
+    font-size: 30px;
+}
+
+.menu ul {
+    margin:  5px;
+    padding:  10px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 4px;
+    position: relative;
+}
+
+.menu {
+    margin-top: 10px;
+    margin-left: 6px;
+    z-index: 5;
+    position: relative;
+    font-family: 'Billo';
+    font-size: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #cacef0;
+    width: 175px;
+    height: 70px;
+    line-height: 75px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(119, 85, 183, 0.5);
+    letter-spacing: 1px;
+    border-radius: 25px;
+}
+
+.menu a:hover {
+    color: #e3dab5;
+    font-size:45px;
+}

@@ -1,0 +1,96 @@
+@font-face {
+ font-family: Hearty Sacred;
+ src: url(Hearty\ Sacred.otf) format('opentype');
+}
+
+ @font-face {
+ font-family: Billo;
+ src: url(Billo.ttf) format('truetype');
+}
+
+ @font-face {
+ font-family: Against;
+ src: url(against\ regular.ttf) format('truetype');
+}
+
+body {
+    background-image: url(img/bg_side.jpg);
+    background-size: 50%;
+    background-repeat: repeat;
+    font-family: Hearty Sacred;
+    color: #6a3f64;
+}
+
+.me-icon {
+    display:inline-block;
+    margin-left: 2%;
+}
+
+.inline {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.moodboard {
+    display: inline-block;
+    margin-left: 2px;
+    height:160px;
+    width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+p {
+    font-size: 20px;
+    color: #6a3f64;
+}
+
+h2 {
+    font-family: 'Against';
+    color: #6a3f64;
+}
+
+.menu ul {
+    margin:  5px;
+    padding:  10px;
+}
+
+.menu li {
+    display: inline;
+    font-family: 'Billo';
+    margin-right: 4px;
+    position: relative;
+}
+
+.menu {
+    margin-top: 10px;
+    margin-left: 6px;
+    z-index: 5;
+    position: relative;
+    font-family: 'Billo';
+    font-size: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Billo';
+    color: #cacef0;
+    width: 175px;
+    height: 70px;
+    line-height: 75px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(119, 85, 183, 0.5);
+    letter-spacing: 1px;
+    border-radius: 25px;
+}
+
+.menu a:hover {
+    color: #e3dab5;
+    font-size:40px;
+}
